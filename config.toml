@@ -34,11 +34,11 @@ enableInlineShortcodes = true
     url = "/about"
     weight = 2
 
-  [[menu.main]]
-    name = "Clergy"
-    parent = "About"
-    url = "/clergy"
-    weight = 1
+  # [[menu.main]]
+  #   name = "Clergy"
+  #   parent = "About"
+  #   url = "/clergy"
+  #   weight = 1
 
   [[menu.main]]
     name = "Bulletin"
@@ -140,14 +140,14 @@ enableInlineShortcodes = true
     #If you use php, you need to host this site on a Server capable of running php.
     # Please edit the /static/contact_mail.php file from the exampleSite.
     service = "netlify" #or "formspree" or "php"
-    confirm_page = "/contact_thanks" #only used by netlify
+    confirm_page = "/contact-thanks" #only used by netlify
     # formspree_formid="" #only used by formspree
 
 
     [params.footer]
       copyright = ["[CC0 (public domain)](//creativecommons.org/publicdomain/zero/1.0/)",
-                   "Design: [HTML5 UP](//html5up.net/alpha)",
-                   "[Hugo Port](//gohugo.io) by [Daniel Saunders](//github.com/funkydan2)"
+                   "Website by [Jacob T. Murphy](//github.com/jacobtmurph)",
+                   "Design based on [Alpha by HTML5 UP](//html5up.net/alpha)"
                   ]
 
     [[params.links]]
