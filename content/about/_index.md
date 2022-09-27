@@ -1,7 +1,9 @@
 +++
 title = "About"
+url = "/about"
+layout = "layouts/about.html"
 aliases = ["about-us"]
-images = ["https://hugo.jacobtmurphy.me/img/about-index.jpg"]
+images = ["img/about-index.jpg"]
 +++
 
 ## Our Parish

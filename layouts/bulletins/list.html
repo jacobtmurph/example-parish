@@ -1,0 +1,23 @@
+{{ define "main" }}
+
+			{{ "<!-- Main -->" | safeHTML }}
+				<section id="main" class="container">
+					<header>
+						<h2>{{ if .Draft }}DRAFT: {{end}}{{ .Params.title }}</h2>
+						{{ with .Params.subtitle }}<p>{{ . }}</p>{{ end }}
+					</header>
+					<div class="box">
+						{{ with .Params.images }}
+							<span class="image featured"><img src="{{ index . 0 | absURL }}" alt=""></span>
+						{{ end }}
+						<ul>
+						{{ with .Resources.ByType "application" }}
+							{{range sort . "Title" "desc"}}
+								<li><a href="/bulletins/{{.Title}}">{{.Title}}</a></li>
+							{{end}}
+						{{end}}
+						</ul>
+						<hr />
+					</div>
+				</section>
+{{ end }}

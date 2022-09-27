@@ -7,17 +7,17 @@
   enable = true
 
   [[feature_images.tile]]
-    image = "https://hugo.jacobtmurphy.me/img/church.jpg"
+    image = "img/church.jpg"
     title = "About Us"
     text = """***\nFancy learning about life in the parish?"""
     url = "/about"
     button_text = "Learn more here"
 
    [[feature_images.tile]]
-    image = "https://hugo.jacobtmurphy.me/img/bulletin.jpg"
+    image = "img/bulletin.jpg"
     title = "Services & Sacraments"
     text = """***\n**Weekday Mass**: 10a.m., **Sunday Mass**: 8:30a.m & 10a.m."""
-    url = "/about/sacraments"
+    url = "/sacraments"
     button_text = "Learn more here"
 [CTA]
     heading = "Get in Touch"

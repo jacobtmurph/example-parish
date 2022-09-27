@@ -1,6 +1,7 @@
 ---
 title: "Contact"
-aliases: ['contact-us']
+aliases: 
+    - contact-us
 ---
 {{< contact.inline >}}{{ partial "contact" . }}{{< /contact.inline >}}
 

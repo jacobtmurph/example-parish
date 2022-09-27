@@ -1,0 +1,22 @@
+{{ define "main" }}
+
+			{{ "<!-- Main -->" | safeHTML }}
+				<section id="main" class="container">
+					<header>
+						<h2>{{ if .Draft }}DRAFT: {{end}}{{ .Params.title }}</h2>
+						{{ with .Params.subtitle }}<p>{{ . }}</p>{{ end }}
+					</header>
+					<div class="box">
+						{{ with .Params.images }}
+							<span class="image featured"><img src="{{ index . 0 | absURL }}" alt=""></span>
+						{{ end }}
+						{{ $pages := .Paginator.Pages }}
+						{{ $length := len $pages}}
+						{{ range $index, $key := $pages }}
+							<a href="{{ .Permalink }}">{{ if .Draft }}DRAFT: {{end}}{{ .Title | markdownify }}</a> {{ if lt (add $index 1) $length }} | {{end}}
+						{{end}} {{/* range */}}
+						<hr />
+						{{ .Content }}
+					</div>
+				</section>
+{{ end }}

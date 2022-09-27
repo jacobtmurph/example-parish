@@ -1,4 +1,5 @@
-baseURL = "http://example.org/"
+baseURL = "http://hugo.jacobtmurphy.me/"
+staticDir = ['static']
 languageCode = "en-us"
 title = "Example Parish"
 theme = "alpha-church"
