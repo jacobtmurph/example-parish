@@ -35,16 +35,28 @@ enableInlineShortcodes = true
     url = "/about"
     weight = 2
 
-  # [[menu.main]]
-  #   name = "Clergy"
-  #   parent = "About"
-  #   url = "/clergy"
-  #   weight = 1
+  [[menu.main]]
+    name = "Clergy"
+    parent = "About"
+    url = "/clergy"
+    weight = 2
 
   [[menu.main]]
     name = "Bulletin"
     parent = "About"
     url = "/bulletin"
+    weight = 2
+
+  [[menu.main]]
+    name = "Clergy"
+    parent = "About"
+    url = "/clergy"
+    weight = 2
+
+  [[menu.main]]
+    name = "Mass"
+    parent = "About"
+    url = "/sacraments"
     weight = 2
 
   #[[menu.main]]

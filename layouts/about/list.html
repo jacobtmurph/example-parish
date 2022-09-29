@@ -10,6 +10,7 @@
 						{{ with .Params.images }}
 							<span class="image featured"><img src="{{ index . 0 | absURL }}" alt=""></span>
 						{{ end }}
+						<a href="/bulletins">Bulletins</a> |
 						{{ $pages := .Paginator.Pages }}
 						{{ $length := len $pages}}
 						{{ range $index, $key := $pages }}
