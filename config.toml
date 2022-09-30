@@ -1,4 +1,4 @@
-baseURL = "http://jacobtmurph.github.io/example-parish/"
+baseURL = "http://jacobtmurph.github.io/example-parish"
 staticDir = ['static']
 languageCode = "en-us"
 title = "Example Parish"
