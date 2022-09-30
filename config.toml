@@ -20,7 +20,7 @@ enableInlineShortcodes = true
 [taxonomies]
   tag = "tags"
   # preacher = "preachers"
-  series = "series"
+  # series = "series"
 
 #This theme can generate a multi-level menu.
 #Use weight= to specify the order of menu items, and parent= to create a submenu item.
