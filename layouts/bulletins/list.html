@@ -13,7 +13,7 @@
 						<ul>
 						{{ with .Resources.ByType "application" }}
 							{{range sort . "Title" "desc"}}
-								<li><a href="/bulletins/{{.Title}}" type="application/pdf">{{.Title}}</a></li>
+								<li><a href="/example-parish/bulletins/{{.Title}}" type="application/pdf">{{.Title}}</a></li>
 							{{end}}
 						{{end}}
 						</ul>
