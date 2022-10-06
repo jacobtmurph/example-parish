@@ -10,7 +10,7 @@
     image = "img/church.jpg"
     title = "About Us"
     text = """***\nFancy learning about life in the parish?"""
-    url = "/about"
+    url = .Site.BaseURL + "/about"
     button_text = "Learn more here"
 
    [[feature_images.tile]]
