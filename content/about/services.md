@@ -12,7 +12,7 @@ aliases:
 
 ## Sacrament of Reconcilliation
  - **Saturdays**: 11a.m.-1.pm.
- - Also available at request [via the parish office](/contact)
+ - Also available at request [via the parish office]({{< ref "contact.md" >}})
 
 ## Marriages & Funerals
- - Please [contact the parish office](/contact) for further info. 
+ - Please [contact the parish office]({{< ref "contact.md" >}}) for further info. 
